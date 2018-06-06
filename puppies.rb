@@ -38,3 +38,7 @@ def new_animal(number_of_puppies,number_of_cats)
     "Good Job!"
     else number_of_puppies>=1 && number_of_cats>=1 
     "Slow back down!"
+  end
+end 
+puts new_animal(0,1)
+puts new_animal(2,3)
